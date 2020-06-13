@@ -1,0 +1,11 @@
+#h=input()
+#h=h.replace("hamu","1")
+#h=h.replace("ham","0")
+#int(h,2)
+#h_i=format(int(h,2)*2,"b")
+#print(h_i)
+#h_i=h_i.replace("0","ham")
+#h_i=h_i.replace("1","hamu")
+#print(h_i)
+
+print(format(int(input().replace("hamu","1").replace("ham","0"),2)*2,"b").replace("0","ham").replace("1","hamu"))
